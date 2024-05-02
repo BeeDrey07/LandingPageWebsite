@@ -72,6 +72,7 @@
   color: #fff;
 }
 
+/* about styling */
 .about {
   margin: 4em 0;
   padding: 1em;
@@ -108,4 +109,19 @@
 .about .desc p {
   line-height: 2;
   color: #888;
+}
+
+/* portfolio styling */
+.portfolio {
+  margin: 4em 0;
+  position: relative;
+}
+.portfolio h1 {
+  color: #f97300;
+  margin: 2em;
+}
+.portfolio img {
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
 }
