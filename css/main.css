@@ -148,3 +148,25 @@
 .blog .card-body {
   padding: 1em;
 }
+
+/* team styling */
+.team {
+  margin: 4em 0;
+  position: relative;
+}
+.team h1 {
+  color: #f97300;
+  margin: 2em;
+}
+.team .item {
+  position: relative;
+}
+.team .des {
+  background: #f97300;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 93%;
+  transition: 0.3s ease-in-out;
+}
+
+
