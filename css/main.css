@@ -169,4 +169,12 @@
   transition: 0.3s ease-in-out;
 }
 
-
+.team .item:hover .des{
+  height: 100%;
+  background:#f973007d;
+  position: absolute;
+  width: 89%;
+  padding: 5em;
+  top: 0;
+  border-bottom-left-radius: 0;
+ }
