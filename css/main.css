@@ -34,12 +34,12 @@
 }
 
 /*header style*/
-.header{
-	position: relative;
-	background-image: url('../images/headerback.jpg');
+.header {
+  position: relative;
+  background-image: url("../images/headerback.jpg");
 
-	background-size: cover;
-	background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .overlay {
@@ -51,24 +51,61 @@
   background: rgba(244, 244, 244, 0.746);
 }
 
-.description{
-    position: absolute;
-    top: 30%;
-    margin: auto;
-    padding: 2em;
-    
+.description {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
 }
-.description h1{
- color:#F97300 ;
+.description h1 {
+  color: #f97300;
 }
-.description p{
- color:#666;
- font-size: 20px;
- width: 50%;
- line-height: 1.5;
+.description p {
+  color: #666;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
 }
-.description button{
- border:1px  solid #F97300;
- background:#F97300;
- color:#fff;
+.description button {
+  border: 1px solid #f97300;
+  background: #f97300;
+  color: #fff;
+}
+
+.about {
+  margin: 4em 0;
+  padding: 1em;
+  position: relative;
+}
+
+.about h1 {
+  color: #f97300;
+  margin: 2em;
+}
+
+.about img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.about span {
+  display: block;
+  color: #888;
+  position: absolute;
+  left: 115px;
+}
+
+.about .desc {
+  padding: 2em;
+  border-left: 4px solid #10828c;
+}
+
+.about .desc h3 {
+  color: #10828c;
+}
+
+.about .desc p {
+  line-height: 2;
+  color: #888;
 }
