@@ -175,6 +175,11 @@ html,h1,h2,h3,h4,h5,h6,a{
   transition: 0.3s ease-in-out;
 }
 
+.team img {
+  width: 600px;
+  height: 300px;
+}
+
 .team .item:hover .des{
   height: 100%;
   background:#f973007d;
